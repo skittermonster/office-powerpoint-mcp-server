@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "version": "4.0.0",
+    "name": "Institutional & Professional Slide Templates",
+    "slide_dimensions": {
+      "width_inches": 13.333,
+      "height_inches": 7.5,
+      "aspect_ratio": "16:9"
+    }
+  },
+  "color_schemes": {
+    "institutional_navy": {
+      "name": "Institutional Navy",
+      "primary": "#1B365D",
+      "secondary": "#0F172A",
+      "accent1": "#2563EB",
+      "accent2": "#0E7490",
+      "light": "#F1F5F9",
+      "zebra": "#F1F5F9",
+      "text": "#1A1A1A",
+      "muted_text": "#64748B",
+      "background": "#FFFFFF",
+      "card_bg": "#FFFFFF",
+      "border": "#CBD5E1",
+      "fonts": {
+        "title": "Helvetica",
+        "body": "Arial"
+      }
+    },
+    "modern_blue": {
+      "name": "Modern Blue",
+      "primary": "#0078D7",
+      "secondary": "#282828",
+      "accent1": "#00B0F0",
+      "accent2": "#FFC000",
+      "light": "#F7F7F7",
+      "zebra": "#F0F7FF",
+      "text": "#444444",
+      "muted_text": "#767676",
+      "background": "#FFFFFF",
+      "card_bg": "#FFFFFF",
+      "border": "#D2D2D2",
+      "fonts": {
+        "title": "Helvetica",
+        "body": "Arial"
+      }
+    },
+    "corporate_gray": {
+      "name": "Corporate Gray",
+      "primary": "#333333",
+      "secondary": "#666666",
+      "accent1": "#DA291C",
+      "accent2": "#0072CE",
+      "light": "#F0F0F0",
+      "zebra": "#F5F5F5",
+      "text": "#333333",
+      "muted_text": "#888888",
+      "background": "#FFFFFF",
+      "card_bg": "#FFFFFF",
+      "border": "#CCCCCC",
+      "fonts": {
+        "title": "Arial",
+        "body": "Arial"
+      }
+    },
+    "elegant_green": {
+      "name": "Elegant Green",
+      "primary": "#107C41",
+      "secondary": "#212121",
+      "accent1": "#BAD80A",
+      "accent2": "#008272",
+      "light": "#F4F9F6",
+      "zebra": "#EBF5EE",
+      "text": "#2E2E2E",
+      "muted_text": "#5E7265",
+      "background": "#FFFFFF",
+      "card_bg": "#FFFFFF",
+      "border": "#D0E1D4",
+      "fonts": {
+        "title": "Helvetica",
+        "body": "Arial"
+      }
+    },
+    "warm_red": {
+      "name": "Warm Red",
+      "primary": "#D13438",
+      "secondary": "#262626",
+      "accent1": "#FF8C00",
+      "accent2": "#881798",
+      "light": "#FFF4F4",
+      "zebra": "#FDF2F2",
+      "text": "#323130",
+      "muted_text": "#797775",
+      "background": "#FFFFFF",
+      "card_bg": "#FFFFFF",
+      "border": "#F3D6D8",
+      "fonts": {
+        "title": "Helvetica",
+        "body": "Arial"
+      }
+    }
+  },
+  "templates": {
+    "title_slide": {
+      "name": "Title Slide",
+      "description": "Clean, authoritative title slide with title, subtitle, author/organization, and accent line",
+      "layout_index": 6,
+      "elements": [
+        {
+          "role": "decorative_bar",
+          "type": "shape",
+          "shape_type": "rectangle",
+          "position": {"left": 1.5, "top": 2.0, "width": 1.2, "height": 0.08},
+          "styling": {"fill_role": "primary", "border": false}
+        },
+        {
+          "role": "title",
+          "type": "text",
+          "position": {"left": 1.5, "top": 2.3, "width": 10.333, "height": 1.8},
+          "styling": {
+            "font_role": "title",
+            "font_size": 40,
+            "bold": true,
+            "color_role": "primary",
+            "alignment": "left"
+          }
+        },
+        {
+          "role": "subtitle",
+          "type": "text",
+          "position": {"left": 1.5, "top": 4.2, "width": 10.333, "height": 1.0},
+          "styling": {
+            "font_role": "body",
+            "font_size": 20,
+            "bold": false,
+            "color_role": "muted_text",
+            "alignment": "left"
+          }
+        },
+        {
+          "role": "author",
+          "type": "text",
+          "position": {"left": 1.5, "top": 5.5, "width": 10.333, "height": 0.8},
+          "styling": {
+            "font_role": "body",
+            "font_size": 13,
+            "bold": true,
+            "color_role": "secondary",
+            "alignment": "left"
+          }
+        }
+      ]
+    },
+    "executive_summary": {
+      "name": "Executive Summary",
+      "description": "Two structured strategic cards for context, key takeaways, and strategic implications",
+      "layout_index": 6,
+      "header": {
+        "title_position": {"left": 1.0, "top": 0.6, "width": 11.333, "height": 0.8},
+        "subtitle_position": {"left": 1.0, "top": 1.4, "width": 11.333, "height": 0.5}
+      },
+      "cards": [
+        {
+          "name": "card_left",
+          "role": "key_takeaways",
+          "position": {"left": 1.0, "top": 2.1, "width": 5.45, "height": 4.7},
+          "title_default": "Key Observations & Findings",
+          "styling": {"fill_role": "light", "border_role": "border"}
+        },
+        {
+          "name": "card_right",
+          "role": "recommendations",
+          "position": {"left": 6.883, "top": 2.1, "width": 5.45, "height": 4.7},
+          "title_default": "Strategic Recommendations",
+          "styling": {"fill_role": "light", "border_role": "border"}
+        }
+      ]
+    },
+    "two_column_comparison": {
+      "name": "Two-Column Comparison",
+      "description": "Side-by-side comparison cards for options, competitors, or pros vs cons",
+      "layout_index": 6,
+      "header": {
+        "title_position": {"left": 1.0, "top": 0.6, "width": 11.333, "height": 0.8},
+        "subtitle_position": {"left": 1.0, "top": 1.4, "width": 11.333, "height": 0.5}
+      },
+      "cards": [
+        {
+          "name": "col_1",
+          "position": {"left": 1.0, "top": 2.1, "width": 5.45, "height": 4.7},
+          "title_default": "Option A / Current State",
+          "styling": {"fill_role": "light", "border_role": "border"}
+        },
+        {
+          "name": "col_2",
+          "position": {"left": 6.883, "top": 2.1, "width": 5.45, "height": 4.7},
+          "title_default": "Option B / Target State",
+          "styling": {"fill_role": "light", "border_role": "border"}
+        }
+      ]
+    },
+    "kpi_metrics_grid": {
+      "name": "KPI Metrics Grid",
+      "description": "Four horizontal high-impact metric cards with primary numbers, labels, and sub-bullets",
+      "layout_index": 6,
+      "header": {
+        "title_position": {"left": 1.0, "top": 0.6, "width": 11.333, "height": 0.8},
+        "subtitle_position": {"left": 1.0, "top": 1.4, "width": 11.333, "height": 0.5}
+      },
+      "metrics": [
+        {"position": {"left": 1.0, "top": 2.3, "width": 2.65, "height": 4.4}},
+        {"position": {"left": 3.89, "top": 2.3, "width": 2.65, "height": 4.4}},
+        {"position": {"left": 6.78, "top": 2.3, "width": 2.65, "height": 4.4}},
+        {"position": {"left": 9.68, "top": 2.3, "width": 2.65, "height": 4.4}}
+      ]
+    },
+    "table_with_commentary": {
+      "name": "Table with Commentary",
+      "description": "Data table occupying the left portion with institutional commentary card on the right",
+      "layout_index": 6,
+      "header": {
+        "title_position": {"left": 1.0, "top": 0.6, "width": 11.333, "height": 0.8},
+        "subtitle_position": {"left": 1.0, "top": 1.4, "width": 11.333, "height": 0.5}
+      },
+      "table_area": {"left": 1.0, "top": 2.1, "width": 7.6, "height": 4.7},
+      "commentary_card": {
+        "position": {"left": 8.9, "top": 2.1, "width": 3.433, "height": 4.7},
+        "title_default": "Key Takeaways",
+        "styling": {"fill_role": "light", "border_role": "border"}
+      }
+    },
+    "chart_with_takeaways": {
+      "name": "Chart with Takeaways",
+      "description": "Chart canvas on the left with bulleted takeaways and analyst notes on the right",
+      "layout_index": 6,
+      "header": {
+        "title_position": {"left": 1.0, "top": 0.6, "width": 11.333, "height": 0.8},
+        "subtitle_position": {"left": 1.0, "top": 1.4, "width": 11.333, "height": 0.5}
+      },
+      "chart_area": {"left": 1.0, "top": 2.1, "width": 7.6, "height": 4.7},
+      "takeaways_card": {
+        "position": {"left": 8.9, "top": 2.1, "width": 3.433, "height": 4.7},
+        "title_default": "Performance Highlights",
+        "styling": {"fill_role": "light", "border_role": "border"}
+      }
+    }
+  }
+}
