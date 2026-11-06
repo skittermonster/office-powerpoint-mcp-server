@@ -1,5 +1,10 @@
 # Office PowerPoint MCP Server (`office-powerpoint-mcp-server`)
 
+[![CI](https://github.com/skittermonster/office-powerpoint-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/skittermonster/office-powerpoint-mcp-server/actions/workflows/ci.yml)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%20%7C%203.13-blue.svg)](https://www.python.org/)
+[![FastMCP v4](https://img.shields.io/badge/FastMCP-v4.1.6-purple.svg)](https://github.com/jlowin/fastmcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A production-ready **Model Context Protocol (MCP)** server for automated PowerPoint (`.pptx`) generation, OpenXML-enhanced financial styling, and presentation inspection. Built with Python 3.12+, **FastMCP v4**, **python-pptx**, **lxml**, **Pillow**, and **Pydantic v2**.
 
 Inspired by and functionally referencing `GongRzhe/Office-PowerPoint-MCP-Server`, upgraded to modern 2026 standards with path sandboxing, consolidated tool surface, hybrid state persistence, and native OpenXML table formatting.
